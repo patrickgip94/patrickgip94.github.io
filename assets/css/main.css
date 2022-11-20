@@ -2583,11 +2583,13 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		
 	}
 
 		.image img {
 			border-radius: 0.25em;
 			display: block;
+			transition: color 0.25, ease;
 		}
 
 		.image.left, .image.right {
